@@ -37,6 +37,7 @@ class App extends Component {
           <Welcome />
           <div>
             <button onClick={() => changeLanguage('de')}>de</button>
+            <button onClick={() => changeLanguage('ru')}>ru</button>
             <button onClick={() => changeLanguage('en')}>en</button>
           </div>
           <div>
